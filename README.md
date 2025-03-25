@@ -32,7 +32,7 @@ _Hint:_
 ### Step #3 - Play! <br>
 
 (optional) Experiment with adding more features!
-- add a new array that controls textSize value and make the stars unique sizes
 - add `xPositions[i]++;` to the drawStar function, inside the for loop
+- add a new array that controls textSize value and make the stars unique sizes
 - change the starting array to have 100+ values to begin using the loop seen in the setup of [this example](https://docs.google.com/presentation/d/1r1RDrTkEiMGof-GP_rib2-0-GbIa66l2KMRAESVdQ4U/edit?slide=id.g3448a245714_0_414#slide=id.g3448a245714_0_414)
 <br><br>
