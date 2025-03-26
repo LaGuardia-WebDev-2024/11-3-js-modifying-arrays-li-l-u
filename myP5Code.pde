@@ -1,5 +1,5 @@
-var xPositions = [100];
-var yPositions = [200];
+var xPositions = [100, 10];
+var yPositions = [200,120];
 
 setup = function() {
   size(400, 400); 
@@ -11,6 +11,10 @@ draw = function(){
 
   //***in the video they use if(mouseIsPressed)
   //***in replit we use if(mousePressed)
+  if(mousePressed){
+  xPositions.push(mouseX);
+  yPositions.push(mouseY);
+}
   
 }
 
